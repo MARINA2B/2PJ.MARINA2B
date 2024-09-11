@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Encode+Sans+SC:wght@100..900&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Encode+Sans+SC:wght@100..900&family=Handjet:wght@100..900&display=swap" rel="stylesheet">
+    <title>Aventura Espacial</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p> Juliana uma astronauta corajosa e curiosa, embarca em uma emocionante expedição espacial. 
+                Durante uma missão de exploração, um inesperado evento ocorre: uma tempestade solar intensa causa uma falha nos sistemas de navegação da espaçonave.</p>
+               <button class="btn-proximo" data-proximo="1">Ignorar o ocorrido e Continuar a exploração.</button>
+               <button class="btn-proximo" data-proximo="2">Buscar uma estação mais proxima.</button>
+            </div> 
+
+            <div class="passo" id="passo-1">
+                <img src="img/cenario-passo0.png" alt="">
+                <p>Com os sensores fracos pelo acidente, a nave consegue detectar sinais vindo de Marte.</p>
+                   <button class="btn-proximo" data-proximo="3">Curiosidade dispertada! Seguir os sinais.</button>
+                   <button class="btn-proximo" data-proximo="4">Desistir e buscar a estação espacial.</button>
+                </div> 
+                 
+                <div class="passo" id="passo-2">
+                    <img src="img/cenario-passo0.png" alt="">
+                    <p>Juliana decide buscar uma estação espacial mais próxima para reparar os sistemas de navegação.
+                        Ela usa os sensores da espaçonave para localizar uma estação nas proximidades.</p>
+                        <button class="btn-proximo" data-proximo="5">continuar.</button>
+                </div>
+               
+                <div class="passo" id="passo-3">
+                    <img src="img/cenario-passo3.png" alt="">
+                    <p>Após chegar em Marte, seu rôbo encontra estruturas antigas e artefatos misteriosos.</p>
+                     <button class="btn-proximo" data-proximo="6">continuar....</button>
+                    </div>
+
+                    <div class="passo" id="passo-4">
+                        <img src="img/cenario-passo4.png" alt="">
+                        <p>juliana decide que a aventura é grande demais e volta para casa por segurança, mas sempre se pergunta o que teria encontrado.</p>
+                     </div>
+
+                     <div class="passo" id= "passo-5">
+                        <img scr="img/cenario-passo5.png" alt="">
+                        <P>Usando os sensores da espaçonave, ela localiza uma estação nas proximidades. Durante a busca, ela detecta um buraco de minhoca proximo.</P>
+                        <button class="btn-proximo" data-proximo="7">Dar uma de interestelar e ir de encontro com a anomalia.</button>
+                        <button class="btn-proximo" data-proximo="8">Usar toda sua habilidade para se afastar do buraco de minhoca e voltar para o seu planeta em segurança.</button>
+                      </div>
+                     
+                      <div class="passo" id="passo-6">
+                        <img src="img/cenario-passo6.png" alt="">
+                        <p> juliana viu que o rôbo encontrou evidências de microorganismos ou fósseis, provando que Marte pode ter abrigado vida no passado.</p>
+                        <button class="btn-proximo" data-proximo="9">voltar para a nave.</button>
+                        <button class="btn-proximo" data-proximo="10">continuar explorando.</button>
+                    </div>
+
+                    <div class="passo" id="passo-7">
+                        <img src="img/cenario-passo7.png" alt="">
+                       <p>Ao atravessar o buraco de minhoca, Juliana experimenta uma viagem surreal através do espaço e do tempo. Ela vê vislumbres de galáxias distantes, estrelas nascendo e morrendo, e até mesmo civilizações alienígenas.</p>
+                       <button class="btn-proximo" data-proximo="11">continuar.</button>
+                    </div>
+
+                    <div class="passo" id="passo-8">
+                        <img src="img/cenario-passo8.png" alt="">
+                        <p>Com muita luta para se afastar com a sua nave que ja não estava muito eficiente, consegue sair dali e encontrar sinal com uma estação proxima</p>
+                        <button class="btn-proximo" data-proximo="12">continuar.</button>
+                    </div>
+                   
+                    <div class="passo" id="passo-9">
+                        <p>Chegando na nave tenta estabelecer contato com a Terra com os vestigios de sinal que sobrou</p>
+                        <button class="btn-proximo" data-proximo="13">Continuar seu caminho devolta  para a Terra.</button>
+                    </div>
+
+                    <div class="passo" id="passo-10">
+                        <img src="img/cenario-passo10.png" alt="">
+                     <p> Ela encontrou vestigios de um asteroide desconhecido e decide coletar amostras.</p>
+                     <button class="btn-proximo" data-proximo="14">retornar à nave.</button>
+                    </div>
+
+                     <div class="passo" id="passo-11">
+                        <img src="img/cenario-passo11.png" alt="">
+                        <p>Após sair do buraco de minhoca ainda sem acreditar nas coisas que havia visto, se da conta que a anomalia a levou a algum lugar muito distante e vasto....PIOR LOGO A FRENTE TEM UM BURACO NEGRO!!</p>
+                        <button class="btn-proximo" data-proximo="15">sem mais esperaças de sair daquela situação, decidi não relutar e aceitar seu destino.</button>                    
+                     </div>
+
+                    <div class="passo" id="passo-12">
+                        <img src="img/cenario-passo12.png" alt="">
+                        <p>Juliana consegue retornar à Terra em segurança, com uma história incrível sobre sua aventura com a tempestede solar que a levou para um buraco de minhoca. Como consequência, acaba sendo reconhecida pela coragem e escreve um livro sobre sua experiência.</p>
+                    </div>
+
+                    <div class="passo" id="passo-13">
+                        <img src="img/cenario-passo13.png" alt="">
+                        <p>Juliana consegue voltar para seu planeta, porem o que encontrou em Marte acabou não sendo uma novidade para a tecnologia espacial. Entretanto, ela começou a estudar e se preparar para ir à marte novamente.</p>
+                    </div>
+
+                    <div class="passo" id="passo-14">
+                        <img src="img/cenario-passo14.png" alt="">
+                        <p> Juliana explora Marte, coleta dados valiosos, consegue entrar em contato com sua estação, volta para o Planeta Terra como uma heroína, trazendo descobertas cientificas, descobrindo que as a mostras são um tipo de mineral que vai revolucionar a tecnologia espacial.</p>
+                    </div>
+
+                    <div class="passo" id="passo-15">
+                        <p>A gravidade do buraco negro começa a puxar a espaçonave.</p>
+                        <button class="btn-proximo" data-proximo="16">continuar...</button>
+                    </div>
+
+
+                    <div class="passo" id="passo-16">
+                        <img src="img/cenario-passo16.png" alt="">
+                        <p> Ao atravessar o horizonte de eventos, Juliana encontrou um vasto e surreal arquivo de conhecimento alienígena, repleto de informações sobre civilizações antigas, tecnologias avançadas e segredos do universo que a humanidade nunca imaginou. Ela viu eventos do passado e do futuro acontecendo simultaneamente, compreendendo a verdadeira natureza do espaço-tempo. Além disso, descobriu que buracos negros podem ser portais para outras dimensões e universos paralelos, revelando um cosmos muito mais vasto e misterioso do que qualquer um poderia imaginar.</p>
+                        <button class="btn-proximo" data-proximo="17">continuar....</button>
+                    </div>
+
+                    <div class="passo" id="passo-17">
+                        <img src="img/cenario-passo17.png" alt="">
+                        <p> Embora Juliana nunca tenha retornado, suas descobertas extraordinárias dentro do buraco negro revelaram segredos do universo que a humanidade jamais conhecerá, eternizando sua coragem e curiosidade entre as estrelas.</p>
+                    </div>
+
+    </main>
+<script src="script.js"></script>
+
+
+</body>
+</html>
